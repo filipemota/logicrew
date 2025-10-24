@@ -1,6 +1,6 @@
 # logicrew
 
-1. Módulo de Gestão de Colaboradores
+#1. Módulo de Gestão de Colaboradores
 
 Objetivo: Controlar informações pessoais, profissionais e documentação obrigatória dos colaboradores.
 
@@ -16,7 +16,8 @@ Histórico de cargos, transferências e escalas.
 
 Integração com autenticação de usuário (login de colaboradores).
 
-2. Módulo de Escalas e Turnos
+
+#2. Módulo de Escalas e Turnos
 
 Objetivo: Planejar e controlar a presença dos colaboradores nas operações.
 
@@ -32,7 +33,8 @@ Visualização de escalas em calendário ou lista.
 
 Notificações sobre alterações de escala.
 
-3. Módulo de Manifesto de Voo
+
+#3. Módulo de Manifesto de Voo
 
 Objetivo: Organizar e monitorar deslocamentos aéreos dos colaboradores.
 
@@ -48,7 +50,8 @@ Relatórios de ocupação de voos.
 
 Integração com escalas de trabalho para garantir presença no destino.
 
-4. Módulo de Logística e Requisições
+
+#4. Módulo de Logística e Requisições
 
 Objetivo: Gerenciar a logística associada às operações, como transporte, alimentação e acomodação.
 
@@ -64,7 +67,8 @@ Relatórios de custos e uso de recursos logísticos.
 
 Integração com escalas e manifesto de voo.
 
-5. Módulo de Relatórios e Dashboards
+
+#5. Módulo de Relatórios e Dashboards
 
 Objetivo: Fornecer visão geral das operações e permitir tomada de decisão.
 
@@ -80,7 +84,8 @@ Dashboards com indicadores de conformidade e ocupação.
 
 Exportação de relatórios em PDF, Excel ou CSV.
 
-6. Módulo de Autenticação e Permissões
+
+#6. Módulo de Autenticação e Permissões
 
 Objetivo: Garantir segurança e controle de acesso.
 
