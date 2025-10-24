@@ -1,10 +1,17 @@
-# logicrew
+# LgiCrew
 
-#1. Módulo de Gestão de Colaboradores
+LogiCrew é um sistema completo de gestão logística de equipes, desenvolvido para otimizar a administração de colaboradores, escalas de trabalho, deslocamentos e recursos operacionais em ambientes corporativos e offshore.
 
-Objetivo: Controlar informações pessoais, profissionais e documentação obrigatória dos colaboradores.
+Com módulos integrados de gestão de colaboradores, escalas, manifesto de voo, logística e relatórios, o LogiCrew permite controle total das operações, garantindo eficiência, conformidade e segurança.
 
-Funcionalidades principais:
+Fácil de usar, acessível via web e dispositivos móveis, o LogiCrew centraliza todas as informações essenciais da equipe, facilitando a tomada de decisão e a comunicação entre gestores e colaboradores.
+
+
+## 1. Módulo de Gestão de Colaboradores
+
+**Objetivo:** Controlar informações pessoais, profissionais e documentação obrigatória dos colaboradores.
+
+#### Funcionalidades principais:
 
 Cadastro de colaboradores (nome, contato, função, matrícula, foto).
 
@@ -17,11 +24,11 @@ Histórico de cargos, transferências e escalas.
 Integração com autenticação de usuário (login de colaboradores).
 
 
-#2. Módulo de Escalas e Turnos
+## 2. Módulo de Escalas e Turnos
 
-Objetivo: Planejar e controlar a presença dos colaboradores nas operações.
+**Objetivo:** Planejar e controlar a presença dos colaboradores nas operações.
 
-Funcionalidades principais:
+#### Funcionalidades principais:
 
 Criação e edição de escalas de trabalho (turnos, datas, horários).
 
@@ -34,11 +41,11 @@ Visualização de escalas em calendário ou lista.
 Notificações sobre alterações de escala.
 
 
-#3. Módulo de Manifesto de Voo
+## 3. Módulo de Manifesto de Voo
 
-Objetivo: Organizar e monitorar deslocamentos aéreos dos colaboradores.
+**Objetivo:** Organizar e monitorar deslocamentos aéreos dos colaboradores.
 
-Funcionalidades principais:
+#### Funcionalidades principais:
 
 Registro de voos (companhia, origem, destino, horário).
 
@@ -51,11 +58,11 @@ Relatórios de ocupação de voos.
 Integração com escalas de trabalho para garantir presença no destino.
 
 
-#4. Módulo de Logística e Requisições
+## 4. Módulo de Logística e Requisições
 
-Objetivo: Gerenciar a logística associada às operações, como transporte, alimentação e acomodação.
+**Objetivo:** Gerenciar a logística associada às operações, como transporte, alimentação e acomodação.
 
-Funcionalidades principais:
+#### Funcionalidades principais:
 
 Solicitação de transporte (aéreo, terrestre) e hospedagem.
 
@@ -68,11 +75,11 @@ Relatórios de custos e uso de recursos logísticos.
 Integração com escalas e manifesto de voo.
 
 
-#5. Módulo de Relatórios e Dashboards
+# 5. Módulo de Relatórios e Dashboards
 
-Objetivo: Fornecer visão geral das operações e permitir tomada de decisão.
+**Objetivo:** Fornecer visão geral das operações e permitir tomada de decisão.
 
-Funcionalidades principais:
+#### Funcionalidades principais:
 
 Relatórios de documentação vencida ou próxima do vencimento.
 
@@ -85,11 +92,11 @@ Dashboards com indicadores de conformidade e ocupação.
 Exportação de relatórios em PDF, Excel ou CSV.
 
 
-#6. Módulo de Autenticação e Permissões
+## 6. Módulo de Autenticação e Permissões
 
-Objetivo: Garantir segurança e controle de acesso.
+**Objetivo:** Garantir segurança e controle de acesso.
 
-Funcionalidades principais:
+#### Funcionalidades principais:
 
 Login de usuários e gestores.
 
