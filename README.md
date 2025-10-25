@@ -155,3 +155,68 @@ O sistema oferece módulos integrados que garantem **eficiência, conformidade e
 
 ---
 
+## 🧱 Stack Técnica
+
+### 🔹 Backend
+- **Framework:** CodeIgniter 4.x  
+- **Linguagem:** PHP 8.x  
+- **Servidor:** Apache (via Laragon ou XAMPP)  
+- **Banco de Dados:** MySQL / MariaDB  
+- **ORM:** Query Builder nativo do CodeIgniter  
+- **Autenticação:** Sessões nativas + Middlewares
+
+### 🔹 Frontend
+- **CSS:** Bootstrap 5.x  
+- **JS utilitário:** jQuery 3.x  
+- **Framework reativo:** Vue.js 3.x (para componentes dinâmicos e dashboards)  
+- **Grids:** jQuery DataTables  
+- **Alertas & Notificações:**  
+  - SweetAlert2 (confirmações e mensagens modais)  
+  - Toastr (notificações rápidas tipo “toast”)
+
+---
+
+## 🧩 Funcionalidades Principais (MVP)
+
+| Módulo | Descrição |
+|--------|------------|
+| **Motoristas** | Cadastro, listagem, status e histórico de atividades |
+| **Veículos** | Registro, manutenção e alocação |
+| **Escalas** | Controle de jornada, folgas e turnos |
+| **Viagens** | Planejamento, acompanhamento e finalização |
+| **Ocorrências** | Registro de eventos e incidentes |
+| **Painel** | Dashboard com resumo de status e alertas operacionais |
+
+---
+
+## ⚙️ Requisitos de Ambiente
+
+- PHP ≥ 8.1  
+- MySQL ≥ 5.7 ou MariaDB ≥ 10.3  
+- Apache ≥ 2.4  
+- Extensões PHP: `intl`, `pdo`, `mbstring`, `json`, `curl`  
+- Composer (para dependências)  
+- Laragon (recomendado) ou XAMPP
+
+---
+
+## 🚀 Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/LogiCrew.git
+cd LogiCrew
+
+# Instale dependências PHP
+composer install
+
+# Crie o arquivo de ambiente
+cp env .env
+
+# Configure o banco de dados e o ambiente
+php spark key:generate
+php spark migrate
+php spark db:seed
+
+# Inicie o servidor local
+php spark serve
