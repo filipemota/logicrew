@@ -1,5 +1,14 @@
 # LogiCrew
 
+---
+
+---
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![PHP](https://img.shields.io/badge/PHP-8.0+-blue.svg)](https://php.net)
+[![LDAP](https://img.shields.io/badge/LDAP-Supported-green.svg)](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
+
+---
+
 **LogiCrew** é um sistema completo de **gestão logística de equipes**, desenvolvido para otimizar a administração de colaboradores, escalas de trabalho, deslocamentos e recursos operacionais em ambientes corporativos e offshore.
 
 O sistema oferece módulos integrados que garantem **eficiência, conformidade e segurança**, facilitando a tomada de decisão e a comunicação entre gestores e colaboradores.
