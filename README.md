@@ -2,7 +2,6 @@
 
 ---
 
----
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PHP](https://img.shields.io/badge/PHP-8.0+-blue.svg)](https://php.net)
 [![LDAP](https://img.shields.io/badge/LDAP-Supported-green.svg)](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
