@@ -1,0 +1,48 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Evita acesso direto à pasta /public na URL
+    RewriteCond %{THE_REQUEST} /public/ [NC]
+    RewriteRule ^public/(.*)$ /$1 [L,R=301]
+
+    # Redireciona tudo para /public (fallback caso DocumentRoot não esteja configurado)
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+#Desativa listagem de diretórios
+Options -Indexes
+
+#Bloqueia acesso a arquivos sensíveis
+<FilesMatch "\.(env|log|ini|sh|sql|conf|bak|yaml|yml)$">
+    Require all denied
+</FilesMatch>
+
+#Bloqueia arquivos ocultos (.git, .htaccess, etc.)
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+#Protege pastas críticas (caso acessadas diretamente)
+RewriteRule ^(app|system|vendor|writable)/ - [F,L]
+
+#Compressão GZIP
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/json application/javascript application/xml image/svg+xml
+</IfModule>
+
+#Cache de arquivos estáticos
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    ExpiresByType image/jpg "access plus 30 days"
+    ExpiresByType image/jpeg "access plus 30 days"
+    ExpiresByType image/png "access plus 30 days"
+    ExpiresByType image/gif "access plus 30 days"
+    ExpiresByType image/webp "access plus 30 days"
+
+    ExpiresByType text/css "access plus 7 days"
+    ExpiresByType application/javascript "access plus 7 days"
+
+    ExpiresDefault "access plus 2 days"
+</IfModule>
